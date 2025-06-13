@@ -1,1 +1,1 @@
-# zipzap-web
+# jumora-ai
