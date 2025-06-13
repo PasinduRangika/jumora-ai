@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+    <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./css/xxl.css" />
+    <link rel="stylesheet" href="./css/xl.css" />
+    <link rel="stylesheet" href="./css/lg.css" />
+    <link rel="stylesheet" href="./css/md.css" />
+    <link rel="stylesheet" href="./css/sm.css" />
+    <link rel="stylesheet" href="./css/xs.css" />
+  </head>
+
+  <body>
+    <div class="bg-color-shape-1"></div>
+    <div class="bg-color-shape-2"></div>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand d-flex gap-2 align-items-center" href="#">
+            <img src="../wp-content/uploads/Logo_2.png" alt="vlauncher logo" />
+            <div>
+              <h2 class="product_name">Camera Studio</h2>
+              <p class="product_sub_name">Optimized For Chrome OS</p>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">FAQs</a>
+              </li>
+            </ul>
+            <a href="https://zipzap.codimite.com/sign-up" target="_blank" class="request-demo-btn">Get Started</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="sec-type-7">
+      <div class="container">
+        <div class="row">
+          <div class="title-wrap">
+            <h1 class="title">Frequently Asked <span>Questions</span></h1>
+            <div class="img-wrap">
+              <img src="../wp-content/uploads/sec_1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container py-5">
+            <div class="accordion" id="faqAccordion">
+              <!-- 1 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse1"
+                    aria-expanded="false"
+                  >
+                    What is this app, and what does it do?
+                  </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <h2 class="answer-title">It’s a camera control and presentation app.</h2>
+                    </div>
+                    <p class="answer-des">
+                      This is a web-based Progressive Web App (PWA) that runs in the Chrome browser. It lets you view,
+                      control, and manipulate the live feed from a document camera, making it ideal for classrooms,
+                      remote learning, product demos, tutorials, and virtual presentations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse2"
+                    aria-expanded="false"
+                  >
+                    Is this a video conferencing app?
+                  </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                          d="M3.81249 4.01442C4.0469 3.78008 4.36478 3.64844 4.69624 3.64844C5.02769 3.64844 5.34558 3.78008 5.57999 4.01442L9.99999 8.43442L14.42 4.01442C14.6557 3.78672 14.9715 3.66073 15.2992 3.66358C15.627 3.66643 15.9405 3.79789 16.1723 4.02965C16.404 4.26141 16.5355 4.57492 16.5383 4.90267C16.5412 5.23042 16.4152 5.54617 16.1875 5.78192L11.7675 10.2019L16.1875 14.6219C16.4152 14.8577 16.5412 15.1734 16.5383 15.5012C16.5355 15.8289 16.404 16.1424 16.1723 16.3742C15.9405 16.606 15.627 16.7374 15.2992 16.7403C14.9715 16.7431 14.6557 16.6171 14.42 16.3894L9.99999 11.9694L5.57999 16.3894C5.34423 16.6171 5.02848 16.7431 4.70073 16.7403C4.37299 16.7374 4.05947 16.606 3.82771 16.3742C3.59595 16.1424 3.46449 15.8289 3.46164 15.5012C3.4588 15.1734 3.58479 14.8577 3.81249 14.6219L8.23249 10.2019L3.81249 5.78192C3.57815 5.54751 3.4465 5.22963 3.4465 4.89817C3.4465 4.56672 3.57815 4.24883 3.81249 4.01442Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">No</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      This app is not a replacement for Google Meet, Zoom or Microsoft Teams. It’s designed to run
+                      alongside these platforms, allowing you to share your document camera view during a call.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse3"
+                    aria-expanded="false"
+                  >
+                    Can I use this app in Google Meet, Zoom, or Microsoft Teams?
+                  </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                          d="M3.4375 11.1406L7.8125 15.5156L16.5625 6.14062"
+                          stroke="white"
+                          stroke-width="1.875"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">Yes, but indirectly</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      This app is a web-based application designed for ChromeOS and runs directly in the Chrome browser.
+                      To use this app in a Zoom, Meet, or Teams call, simply share the browser window or the tab where
+                      the app is running.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse4"
+                    aria-expanded="false"
+                  >
+                    Do I need an internet connection to use this app?
+                  </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                          d="M3.81249 4.01442C4.0469 3.78008 4.36478 3.64844 4.69624 3.64844C5.02769 3.64844 5.34558 3.78008 5.57999 4.01442L9.99999 8.43442L14.42 4.01442C14.6557 3.78672 14.9715 3.66073 15.2992 3.66358C15.627 3.66643 15.9405 3.79789 16.1723 4.02965C16.404 4.26141 16.5355 4.57492 16.5383 4.90267C16.5412 5.23042 16.4152 5.54617 16.1875 5.78192L11.7675 10.2019L16.1875 14.6219C16.4152 14.8577 16.5412 15.1734 16.5383 15.5012C16.5355 15.8289 16.404 16.1424 16.1723 16.3742C15.9405 16.606 15.627 16.7374 15.2992 16.7403C14.9715 16.7431 14.6557 16.6171 14.42 16.3894L9.99999 11.9694L5.57999 16.3894C5.34423 16.6171 5.02848 16.7431 4.70073 16.7403C4.37299 16.7374 4.05947 16.606 3.82771 16.3742C3.59595 16.1424 3.46449 15.8289 3.46164 15.5012C3.4588 15.1734 3.58479 14.8577 3.81249 14.6219L8.23249 10.2019L3.81249 5.78192C3.57815 5.54751 3.4465 5.22963 3.4465 4.89817C3.4465 4.56672 3.57815 4.24883 3.81249 4.01442Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">No</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      No internet connection is required to use the app. All features—including live view, annotations,
+                      and snapshots—work offline. If you'd like to save screenshots to Google Drive, you'll need to sign
+                      in with your Google account.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse5"
+                    aria-expanded="false"
+                  >
+                    What devices are compatible with this app?
+                  </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                          d="M16.6667 15.2018C17.5833 15.2018 18.3333 14.4518 18.3333 13.5352V5.20182C18.3333 4.28516 17.5833 3.53516 16.6667 3.53516H3.33333C2.41667 3.53516 1.66667 4.28516 1.66667 5.20182V13.5352C1.66667 14.4518 2.41667 15.2018 3.33333 15.2018H0V16.8685H20V15.2018H16.6667ZM3.33333 5.20182H16.6667V13.5352H3.33333V5.20182Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">ChromeOS devices and UVC-compliant document cameras</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      This app is designed for ChromeOS and runs directly in the Chrome browser. It supports all
+                      UVC-compliant document cameras, meaning plug-and-play compatibility with most modern USB cameras.
+                    </p>
+                    <a href="" class="d-flex answer-link"> 👉 Learn more about UVC compliance </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading6">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse6"
+                    aria-expanded="false"
+                  >
+                    Why use a document camera instead of just a webcam?
+                  </button>
+                </h2>
+                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.21739 5.20312C2.59471 5.20313 1.99753 5.45048 1.55723 5.89079C1.11693 6.33109 0.869568 6.92827 0.869568 7.55095V14.8553C0.869568 15.478 1.11693 16.0752 1.55723 16.5155C1.99753 16.9558 2.59471 17.2031 3.21739 17.2031H11.5652C12.1879 17.2031 12.7851 16.9558 13.2254 16.5155C13.6657 16.0752 13.913 15.478 13.913 14.8553V14.0341L17.2428 15.6995C17.4416 15.7989 17.6626 15.8458 17.8847 15.8358C18.1068 15.8259 18.3227 15.7593 18.5118 15.6424C18.7009 15.5255 18.8571 15.3622 18.9653 15.168C19.0736 14.9738 19.1304 14.7552 19.1304 14.5329V7.87339C19.1304 7.65106 19.0736 7.43242 18.9653 7.23823C18.8571 7.04405 18.7009 6.88076 18.5118 6.76388C18.3227 6.647 18.1068 6.58039 17.8847 6.5704C17.6626 6.56041 17.4416 6.60735 17.2428 6.70678L13.913 8.37113V7.55095C13.913 6.92827 13.6657 6.33109 13.2254 5.89079C12.7851 5.45048 12.1879 5.20312 11.5652 5.20312H3.21739ZM13.913 10.1221V12.2842L17.5652 14.1103V8.29495L13.913 10.1221ZM12.3478 7.55095C12.3478 7.34339 12.2654 7.14433 12.1186 6.99756C11.9718 6.8508 11.7728 6.76834 11.5652 6.76834H3.21739C3.00983 6.76834 2.81077 6.8508 2.66401 6.99756C2.51724 7.14433 2.43479 7.34339 2.43479 7.55095V14.8553C2.43479 15.2873 2.78539 15.6379 3.21739 15.6379H11.5652C11.7728 15.6379 11.9718 15.5555 12.1186 15.4087C12.2654 15.2619 12.3478 15.0629 12.3478 14.8553V7.55095Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">Dedicated controls for a better presentation</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      A document camera gives you dedicated controls such as focus, zoom, and exposure that are not
+                      available in standard webcams.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 7: ENHANCED FEATURES -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading7">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse7"
+                    aria-expanded="false"
+                  >
+                    What features does the app offer?
+                  </button>
+                </h2>
+                <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20" fill="none">
+                        <g clip-path="url(#clip0_245_5927)">
+                          <path
+                            d="M14.5893 8.3471V0.882812M10.8571 4.61496H18.3214M6.7857 0.882812H2.0357C1.67576 0.882813 1.33057 1.0258 1.07606 1.28031C0.821543 1.53482 0.678558 1.88002 0.678558 2.23996V6.98996C0.678558 7.34989 0.821543 7.69509 1.07606 7.9496C1.33057 8.20411 1.67576 8.3471 2.0357 8.3471H6.7857C7.14564 8.3471 7.49083 8.20411 7.74535 7.9496C7.99986 7.69509 8.14284 7.34989 8.14284 6.98996V2.23996C8.14284 1.88002 7.99986 1.53482 7.74535 1.28031C7.49083 1.0258 7.14564 0.882813 6.7857 0.882812ZM16.9643 11.0614H12.2143C11.8543 11.0614 11.5091 11.2044 11.2546 11.4589C11.0001 11.7134 10.8571 12.0586 10.8571 12.4185V17.1685C10.8571 17.5285 11.0001 17.8737 11.2546 18.1282C11.5091 18.3827 11.8543 18.5257 12.2143 18.5257H16.9643C17.3242 18.5257 17.6694 18.3827 17.9239 18.1282C18.1784 17.8737 18.3214 17.5285 18.3214 17.1685V12.4185C18.3214 12.0586 18.1784 11.7134 17.9239 11.4589C17.6694 11.2044 17.3242 11.0614 16.9643 11.0614ZM6.7857 11.0614H2.0357C1.67576 11.0614 1.33057 11.2044 1.07606 11.4589C0.821543 11.7134 0.678558 12.0586 0.678558 12.4185V17.1685C0.678558 17.5285 0.821543 17.8737 1.07606 18.1282C1.33057 18.3827 1.67576 18.5257 2.0357 18.5257H6.7857C7.14564 18.5257 7.49083 18.3827 7.74535 18.1282C7.99986 17.8737 8.14284 17.5285 8.14284 17.1685V12.4185C8.14284 12.0586 7.99986 11.7134 7.74535 11.4589C7.49083 11.2044 7.14564 11.0614 6.7857 11.0614Z"
+                            stroke="white"
+                            stroke-width="1.42857"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_245_5927">
+                            <rect width="19" height="19" fill="white" transform="translate(0 0.203125)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <h2 class="answer-title">Advanced camera controls and tools for better presentation:</h2>
+                    </div>
+                    <div class="row card-row justify-content-start gap-5">
+                      <div class="col-12 col-lg-4 card-1">
+                        <div>
+                          <p class="card-title">Camera Controls</p>
+                          <div class="point-wrap">
+                            <div class="point">🎯 Manual & Auto Focus</div>
+                            <div class="point">🔍 Zoom (Physical or Digital) with Pan</div>
+                            <div class="point">🔅 Adjustable Exposure</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-lg-3 card-2">
+                        <div>
+                          <p class="card-title">Image Transformation</p>
+                          <div class="point-wrap">
+                            <div class="point">🔄 Rotate Image</div>
+                            <div class="point">↕️ Flip Image</div>
+                            <div class="point">⏸️ Freeze Frame</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-lg-3 card-3">
+                        <div>
+                          <p class="card-title">Annotation & Capture</p>
+                          <div class="point-wrap">
+                            <div class="point">✏️ Annotate on the live feed</div>
+                            <div class="point">💾 Save Snapshots to device or or Google Drive</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 8 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading8">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse8"
+                    aria-expanded="false"
+                  >
+                    How should I use this app?
+                  </button>
+                </h2>
+                <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
+                        <path
+                          d="M13.5483 6.76979L13.3058 6.34146C13.1225 6.01729 13.0308 5.85563 12.8742 5.79146C12.7183 5.72646 12.5417 5.77729 12.1892 5.87979L11.5892 6.05146C11.3637 6.10398 11.1268 6.07382 10.9217 5.96646L10.7558 5.86979C10.5786 5.75354 10.4429 5.584 10.3683 5.38563L10.2042 4.88729C10.0967 4.55729 10.0425 4.39229 9.91416 4.29729C9.78583 4.20229 9.61499 4.20313 9.27499 4.20313H8.72666C8.38499 4.20313 8.21499 4.20313 8.08666 4.29729C7.95833 4.39229 7.90416 4.55729 7.79666 4.88729L7.63249 5.38563C7.55774 5.58369 7.42207 5.75293 7.24499 5.86896L7.07916 5.96646C6.87333 6.07479 6.63749 6.10396 6.41166 6.05146L5.81166 5.87979C5.45916 5.77729 5.28249 5.72646 5.12666 5.79146C4.96999 5.85563 4.87833 6.01729 4.69499 6.34146L4.45249 6.76979C4.28083 7.07313 4.19416 7.22563 4.21083 7.38646C4.22749 7.54813 4.34333 7.67813 4.57333 7.93896L5.07999 8.51563C5.20416 8.67479 5.29166 8.95313 5.29166 9.20313C5.29166 9.45313 5.20416 9.73063 5.07999 9.89063L4.57333 10.4673C4.34333 10.7273 4.22749 10.8573 4.21083 11.019C4.19416 11.1806 4.28083 11.3331 4.45249 11.6356L4.69499 12.0648C4.87833 12.3881 4.96999 12.5506 5.12666 12.6148C5.28249 12.6798 5.45916 12.629 5.81166 12.5265L6.41166 12.3548C6.63716 12.3023 6.87402 12.3324 7.07916 12.4398L7.24499 12.5365C7.42166 12.6515 7.55666 12.8215 7.63249 13.0206L7.79666 13.5198C7.90416 13.8498 7.95833 14.014 8.08666 14.109C8.21499 14.204 8.38583 14.2031 8.72666 14.2031H9.27499C9.61666 14.2031 9.78666 14.2031 9.91499 14.109C10.0433 14.014 10.0975 13.8498 10.205 13.5198L10.3692 13.0206C10.4442 12.8206 10.58 12.6515 10.7567 12.5373L10.9225 12.4398C11.1283 12.3315 11.3642 12.3023 11.59 12.3548L12.19 12.5265C12.5425 12.629 12.7192 12.6798 12.875 12.6148C13.0317 12.5506 13.1233 12.3881 13.3067 12.0648L13.5492 11.6365C13.7208 11.3331 13.8075 11.1806 13.7908 11.0198C13.7742 10.8573 13.6583 10.7281 13.4283 10.4673L12.9217 9.89063C12.7975 9.73146 12.71 9.45313 12.71 9.20313C12.71 8.95313 12.7975 8.67479 12.9217 8.51563L13.4283 7.93896C13.6583 7.67896 13.7742 7.54813 13.79 7.38729C13.8058 7.22646 13.7208 7.07313 13.5492 6.77063"
+                          fill="white"
+                        />
+                        <path
+                          d="M13.5483 6.76979L13.3058 6.34146C13.1225 6.01729 13.0308 5.85563 12.8742 5.79146C12.7183 5.72646 12.5417 5.77729 12.1892 5.87979L11.5892 6.05146C11.3637 6.10398 11.1268 6.07382 10.9217 5.96646L10.7558 5.86979C10.5786 5.75354 10.4429 5.584 10.3683 5.38563L10.2042 4.88729C10.0967 4.55729 10.0425 4.39229 9.91416 4.29729C9.78583 4.20229 9.61499 4.20313 9.27499 4.20313H8.72666C8.38499 4.20313 8.21499 4.20313 8.08666 4.29729C7.95833 4.39229 7.90416 4.55729 7.79666 4.88729L7.63249 5.38563C7.55774 5.58369 7.42207 5.75293 7.24499 5.86896L7.07916 5.96646C6.87333 6.07479 6.63749 6.10396 6.41166 6.05146L5.81166 5.87979C5.45916 5.77729 5.28249 5.72646 5.12666 5.79146C4.96999 5.85563 4.87833 6.01729 4.69499 6.34146L4.45249 6.76979C4.28083 7.07313 4.19416 7.22563 4.21083 7.38646C4.22749 7.54813 4.34333 7.67813 4.57333 7.93896L5.07999 8.51563C5.20416 8.67479 5.29166 8.95313 5.29166 9.20313C5.29166 9.45313 5.20416 9.73063 5.07999 9.89063L4.57333 10.4673C4.34333 10.7273 4.22749 10.8573 4.21083 11.019C4.19416 11.1806 4.28083 11.3331 4.45249 11.6356L4.69499 12.0648C4.87833 12.3881 4.96999 12.5506 5.12666 12.6148C5.28249 12.6798 5.45916 12.629 5.81166 12.5265L6.41166 12.3548C6.63716 12.3023 6.87402 12.3324 7.07916 12.4398L7.24499 12.5365C7.42166 12.6515 7.55666 12.8215 7.63249 13.0206L7.79666 13.5198C7.90416 13.8498 7.95833 14.014 8.08666 14.109C8.21499 14.204 8.38583 14.2031 8.72666 14.2031H9.27499C9.61666 14.2031 9.78666 14.2031 9.91499 14.109C10.0433 14.014 10.0975 13.8498 10.205 13.5198L10.3692 13.0206C10.4442 12.8206 10.58 12.6515 10.7567 12.5373L10.9225 12.4398C11.1283 12.3315 11.3642 12.3023 11.59 12.3548L12.19 12.5265C12.5425 12.629 12.7192 12.6798 12.875 12.6148C13.0317 12.5506 13.1233 12.3881 13.3067 12.0648L13.5492 11.6365C13.7208 11.3331 13.8075 11.1806 13.7908 11.0198C13.7742 10.8573 13.6583 10.7281 13.4283 10.4673L12.9217 9.89063C12.7975 9.73146 12.71 9.45313 12.71 9.20313C12.71 8.95313 12.7975 8.67479 12.9217 8.51563L13.4283 7.93896C13.6583 7.67896 13.7742 7.54813 13.79 7.38729C13.8058 7.22646 13.7208 7.07313 13.5492 6.77063"
+                          stroke="black"
+                          stroke-width="1.25"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M8.99999 10.6628C9.80541 10.6628 10.4583 10.0098 10.4583 9.20443C10.4583 8.39901 9.80541 7.74609 8.99999 7.74609C8.19457 7.74609 7.54166 8.39901 7.54166 9.20443C7.54166 10.0098 8.19457 10.6628 8.99999 10.6628Z"
+                          stroke="black"
+                          stroke-width="1.25"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M14.8333 0.8711V3.2536C13.2771 1.72429 11.1818 0.868513 8.99999 0.8711C4.39749 0.8711 0.666658 4.60193 0.666658 9.20443C0.665909 10.3514 0.901946 11.4862 1.35999 12.5378M3.16666 17.5378V15.1553C4.72284 16.6846 6.81814 17.5404 8.99999 17.5378C13.6025 17.5378 17.3333 13.8069 17.3333 9.20443C17.3341 8.05745 17.098 6.92266 16.64 5.8711"
+                          stroke="black"
+                          stroke-width="1.25"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">Simple setup to get started</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      Open the app in your Chrome browser and connect your UVC-compliant document camera via USB. Once
+                      connected, you’ll be able to present your camera feed, adjust settings such as focus, zoom, and
+                      exposure, and utilize other image manipulation tools in real-time. <br />
+                      You can also share this live feed during video calls simply by sharing your browser tab or window.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 9 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading9">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse9"
+                    aria-expanded="false"
+                  >
+                    Do I need to install anything?
+                  </button>
+                </h2>
+                <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                          d="M3.81249 4.01442C4.0469 3.78008 4.36478 3.64844 4.69624 3.64844C5.02769 3.64844 5.34558 3.78008 5.57999 4.01442L9.99999 8.43442L14.42 4.01442C14.6557 3.78672 14.9715 3.66073 15.2992 3.66358C15.627 3.66643 15.9405 3.79789 16.1723 4.02965C16.404 4.26141 16.5355 4.57492 16.5383 4.90267C16.5412 5.23042 16.4152 5.54617 16.1875 5.78192L11.7675 10.2019L16.1875 14.6219C16.4152 14.8577 16.5412 15.1734 16.5383 15.5012C16.5355 15.8289 16.404 16.1424 16.1723 16.3742C15.9405 16.606 15.627 16.7374 15.2992 16.7403C14.9715 16.7431 14.6557 16.6171 14.42 16.3894L9.99999 11.9694L5.57999 16.3894C5.34423 16.6171 5.02848 16.7431 4.70073 16.7403C4.37299 16.7374 4.05947 16.606 3.82771 16.3742C3.59595 16.1424 3.46449 15.8289 3.46164 15.5012C3.4588 15.1734 3.58479 14.8577 3.81249 14.6219L8.23249 10.2019L3.81249 5.78192C3.57815 5.54751 3.4465 5.22963 3.4465 4.89817C3.4465 4.56672 3.57815 4.24883 3.81249 4.01442Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">No</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      This is a web-based PWA (Progressive Web App) that runs directly in the Chrome browser. You can
+                      optionally install it to your chromeOS device for quick access
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 10 -->
+              <div class="accordion-item bg-black border-dark">
+                <h2 class="accordion-header" id="heading10">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse10"
+                    aria-expanded="false"
+                  >
+                    Who should use this app?
+                  </button>
+                </h2>
+                <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex align-item-center gap-2 answer-title-wrap">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M10 1.24609C8.95018 1.24609 7.94336 1.66313 7.20103 2.40546C6.4587 3.14779 6.04166 4.15461 6.04166 5.20443C6.04166 6.25424 6.4587 7.26106 7.20103 8.00339C7.94336 8.74572 8.95018 9.16276 10 9.16276C11.0498 9.16276 12.0566 8.74572 12.799 8.00339C13.5413 7.26106 13.9583 6.25424 13.9583 5.20443C13.9583 4.15461 13.5413 3.14779 12.799 2.40546C12.0566 1.66313 11.0498 1.24609 10 1.24609ZM7.29166 5.20443C7.29166 4.48613 7.577 3.79726 8.08492 3.28935C8.59283 2.78144 9.2817 2.49609 10 2.49609C10.7183 2.49609 11.4072 2.78144 11.9151 3.28935C12.423 3.79726 12.7083 4.48613 12.7083 5.20443C12.7083 5.92272 12.423 6.6116 11.9151 7.11951C11.4072 7.62742 10.7183 7.91276 10 7.91276C9.2817 7.91276 8.59283 7.62742 8.08492 7.11951C7.577 6.6116 7.29166 5.92272 7.29166 5.20443ZM10 10.4128C8.0725 10.4128 6.29583 10.8511 4.98 11.5911C3.68333 12.3211 2.70833 13.4261 2.70833 14.7878V14.8728C2.7075 15.8411 2.70666 17.0561 3.7725 17.9244C4.29666 18.3511 5.03083 18.6553 6.0225 18.8553C7.01583 19.0569 8.31166 19.1628 10 19.1628C11.6883 19.1628 12.9833 19.0569 13.9783 18.8553C14.97 18.6553 15.7033 18.3511 16.2283 17.9244C17.2942 17.0561 17.2925 15.8411 17.2917 14.8728V14.7878C17.2917 13.4261 16.3167 12.3211 15.0208 11.5911C13.7042 10.8511 11.9283 10.4128 10 10.4128ZM3.95833 14.7878C3.95833 14.0786 4.47666 13.3086 5.5925 12.6811C6.68916 12.0644 8.24583 11.6628 10.0008 11.6628C11.7542 11.6628 13.3108 12.0644 14.4075 12.6811C15.5242 13.3086 16.0417 14.0786 16.0417 14.7878C16.0417 15.8778 16.0083 16.4911 15.4383 16.9544C15.13 17.2061 14.6133 17.4519 13.73 17.6303C12.8492 17.8086 11.645 17.9128 10 17.9128C8.355 17.9128 7.15 17.8086 6.27 17.6303C5.38666 17.4519 4.87 17.2061 4.56166 16.9553C3.99166 16.4911 3.95833 15.8778 3.95833 14.7878Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      <h2 class="answer-title">Anyone needing a high-quality document camera experience</h2>
+                    </div>
+
+                    <p class="answer-des">
+                      This app is ideal for teachers, presenters, remote workers, and anyone who needs to showcase
+                      documents, books, or objects in detail. It’s perfect for virtual meetings, training sessions,
+                      science demonstrations, art tutorials, and other scenarios where visual clarity and manipulation
+                      of content are key
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section class="sec-type-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-5">
+              <div class="img-wrap">
+                <img src="../wp-content/uploads/Logo.png" alt="" />
+                <p class="footer-logo-text">Camera Studio</p>
+                <p class="footer_sub_name">Optimized For Chrome OS</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex flex-column">
+              <h4 class="footer-title">About</h4>
+              <a href="#">How It Works</a>
+              <a href="#">Supported UVC Cameras</a>
+              <a href="#">FAQ</a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 d-flex flex-column">
+              <h4 class="footer-title">Explore</h4>
+              <a href="#">Key Features</a>
+              <a href="#">What’s New</a>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-10 d-flex jusfity-content-center">
+              <div class="divider"></div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <p class="footer-text">© 2025 Camera Studio | All Rights Reserved</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
