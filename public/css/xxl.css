@@ -728,3 +728,23 @@ html {
 .sec-type-7 .bottom-card {
   margin-top: 20px;
 }
+/* sec-type-8 */
+.sec-type-8 {
+  padding: 60px 0px;
+}
+.sec-type-8 .title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+.sec-type-8 .des {
+  color: #e4e4e4;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  padding-bottom: 60px;
+}
